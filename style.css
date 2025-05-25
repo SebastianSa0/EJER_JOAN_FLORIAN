@@ -1,0 +1,183 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header-info-empresa{
+    width:100vw;
+    background-color: black;
+    padding: 30px;
+}
+
+
+.info-empresa{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    width:100vw;
+    margin-left: 20px;
+}
+
+.img-empre{
+    width:220px;
+    height: 70px;
+    margin:0 30px;
+
+}
+.img-logo{
+    width:90px;
+    height: 60px;
+    margin:0;
+}
+
+nav{
+    margin-top: 7px;
+    background-color:rgb(0, 0, 0) ;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width:100vw;
+    padding: 0px 300px;
+    height:80px;
+    align-content: center;
+}
+ a {
+      color: inherit;          
+      text-decoration: none;   
+    }
+ul{
+    display:flex;
+    align-content: center;
+    justify-content:space-between;
+    color:white;
+    font-size:26px;
+    list-style:none;
+}
+
+.principal-content{
+    display: flex;
+    margin-top:15px;
+}
+.form-targets{
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+form{
+    width:400px;
+    height:450px ;
+    background-color: rgb(0, 0, 0);
+    padding:30px;
+    margin: 15px 0px 0px 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 40px rgb(0, 0, 0);
+
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+span{
+    color:white;
+}
+
+.form-group-custom{
+    margin-bottom:40px;
+
+}
+
+
+input{
+    font-size: 15px;
+    border:none;
+    border-bottom: 3px solid white;
+    background: transparent;
+    margin:5px;
+    padding: 10px;
+    color:white;
+}
+
+.btn{
+    display:flex;
+    color:black;
+    background-color: white;
+    width:80px;
+    height:40px;
+    border-radius: 10px;
+}
+.btn-position{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.all-products{
+    display:flex;
+    margin: 15px 0px 0px 50px;
+    width:70vw;
+    height:100vh;
+}
+
+.product{
+    box-sizing: border-box;
+    width:380px;
+    height:350px;
+    border:6px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin:0 15px 25px 15px;
+    padding:30px;
+    background-color: rgb(0, 0, 0);
+    color:white
+}
+
+.center-img{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 150px;
+    height:100px;
+    margin:0 0 25px 0;
+    border-radius: 5px;
+}
+
+/* creditos*/
+.principal-content-modules{
+    display: flex;
+    margin:20px;
+    justify-content: space-between;
+}
+.module-section{
+    box-sizing: border-box;
+    width:30vw;
+    height:350px;
+    background-color: #e0dede;
+    margin:20px 20px 0 10px;
+    border:3px solid rgba(228, 223, 223, 0.678);
+}
+
+.img-module-section{
+    width:100%;
+    height:150px
+}
+
+.section-module-footer{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 30vw;
+    margin:0 20px 20px 10px;
+    background-color: #ededed94;
+    border-top:6px solid rgba(105, 105, 105, 0.815);
+    padding:10px;
+}
+
+.icon-small{
+    width:30px;
+    height:30px;
+}
+
+.paragraph-padding{
+    padding:0 30px 0 30px
+}
